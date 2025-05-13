@@ -1,5 +1,5 @@
 # Docker 镜像构建
-FROM maven:3.11.0 as builder
+FROM eclipse-temurin:17-jdk-alpine as builder
 
 # 指定工作目录
 WORKDIR /app
