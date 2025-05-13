@@ -40,6 +40,10 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <release>17</release> <!-- 替换为你的 JDK 版本 -->
+          <fork>true</fork> <!-- 强制使用指定 JDK -->
+        </configuration>
       </plugin>
     </plugins>
   </build>
