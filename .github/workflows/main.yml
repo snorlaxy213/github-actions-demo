@@ -22,7 +22,7 @@ jobs:
       # 云服务地址
       Host_IP: ${{secrets.REMOTE_SERVER_IP}}
       # 路径
-      Host_Dir: "/cicd"
+      Host_Dir: "/github-actions-demo/cicd"
       # 账号
       Host_Role: root
       # 云服务密码
