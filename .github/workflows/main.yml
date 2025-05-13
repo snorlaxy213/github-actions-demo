@@ -63,12 +63,13 @@ jobs:
         uses: actions/checkout@v3       # 使用官方的checkout action，用于将仓库中的最新代码检查并拉取到工作目录中
 
       # 设置JDK版本
-      - name: Set up JDK 1.8
+      - name: Set up JDK 17
         uses: actions/setup-java@v3     # 安装java环境的action
         with:
-          java-version: '8.0'           # 指定jkd版本
+          java-version: '17'  # 指定 Java 版本
           distribution: 'temurin'
           cache: maven                  # 使用maven缓存，避免每次构建项目时都要重新下载maven依赖
+          
 
       # 构建镜像
       - name: Build docker image
