@@ -1,5 +1,5 @@
 # Docker 镜像构建
-FROM maven:3.8.4-jdk-17 as builder
+FROM maven:3.8.4-jdk-17-alpine as builder
 
 # 指定工作目录
 WORKDIR /app
