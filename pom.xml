@@ -14,7 +14,7 @@
   <name>demo</name>
   <description>Demo project for Spring Boot</description>
   <properties>
-    <java.version>1.8</java.version>
+    <java.version>17</java.version>
   </properties>
   <dependencies>
     <dependency>
@@ -40,10 +40,6 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-            <release>1.8</release> <!-- 替换为你的 JDK 版本 -->
-        </configuration>
       </plugin>
     </plugins>
   </build>
