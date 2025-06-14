@@ -8,3 +8,6 @@ Server should run automatically when starting a workspace. To run manually, run:
 ```sh
 mvn spring-boot:run
 ```
+
+## To Do What
+A project that tests GitHub Actions for deploying code to a remote server.
